@@ -8,7 +8,7 @@ import { ProjectItems } from "../Components/ProjectItems";
 import { Login } from "../Components/loginButton";
 
 
-const database = window.firebase.database();
+
 
 
 const NewHeader = styled.div`
@@ -152,11 +152,7 @@ export class MyForm extends React.Component {
     });
   };
 
-  addData = (projects, loggedIn) => {
-      var newProjectsref = database.ref('projects').push();
-      console.log(this)
 
-  }
 
   sortByDate = (event) => {
     console.log(this.state.projects);
