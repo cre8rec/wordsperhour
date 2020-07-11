@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { logIn } from '../Components/useAuth'
+
 
 
 
@@ -20,7 +20,7 @@ export const Login = () => {
   return (
 
   
-    <LoginButton onClick = {logIn}>
+    <LoginButton >
     
       <h4>login / signup</h4> 
     </LoginButton>
