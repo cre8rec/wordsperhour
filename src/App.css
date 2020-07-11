@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  color: #07461f;
+  border-radius: 9px;
+  background: #ffffff;
+  box-shadow: inset 4px 4px 8px #e8e8e8, inset -4px -4px 8px #ffffff;
+
+  border: none;
+  border-radius: 10px;
+  height: 20px;
+  text-align: center;
+}
+
+button {
+  color: #07461f;
+  border-radius: 9px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 5px 5px 69px #fcfcfc, -5px -5px 69px #ffffff;
+  border: none;
+  height: 30px;
+  width: 100px;
+}
+
+button:active {
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 10px 10px 21px #fcfcfc, -10px -10px 21px #ffffff;
+}
+
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+
+h3 {
+  cursor: pointer;
+}
+
+.messagedesktop {
+  display: none;
+}
+
+.messagemobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #07461f;
+  }
+  .body {
+    text-align: center;
+    display: none;
+  }
+
+  .messagemobile {
+    display: block;
+  }
+  .messagedesktop {
+    display: none;
+  }
+}
