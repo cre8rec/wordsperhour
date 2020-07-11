@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wordsperhour/static/css/main.1db3e3ba.chunk.css",
+    "main.js": "/wordsperhour/static/js/main.168790da.chunk.js",
+    "main.js.map": "/wordsperhour/static/js/main.168790da.chunk.js.map",
+    "runtime-main.js": "/wordsperhour/static/js/runtime-main.260054d6.js",
+    "runtime-main.js.map": "/wordsperhour/static/js/runtime-main.260054d6.js.map",
+    "static/css/2.a1b7a17e.chunk.css": "/wordsperhour/static/css/2.a1b7a17e.chunk.css",
+    "static/js/2.cbaaa291.chunk.js": "/wordsperhour/static/js/2.cbaaa291.chunk.js",
+    "static/js/2.cbaaa291.chunk.js.map": "/wordsperhour/static/js/2.cbaaa291.chunk.js.map",
+    "index.html": "/wordsperhour/index.html",
+    "precache-manifest.3b9a6aba1eed357bbda7ca9fed39b87b.js": "/wordsperhour/precache-manifest.3b9a6aba1eed357bbda7ca9fed39b87b.js",
+    "service-worker.js": "/wordsperhour/service-worker.js",
+    "static/css/2.a1b7a17e.chunk.css.map": "/wordsperhour/static/css/2.a1b7a17e.chunk.css.map",
+    "static/css/main.1db3e3ba.chunk.css.map": "/wordsperhour/static/css/main.1db3e3ba.chunk.css.map",
+    "static/js/2.cbaaa291.chunk.js.LICENSE.txt": "/wordsperhour/static/js/2.cbaaa291.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.260054d6.js",
+    "static/css/2.a1b7a17e.chunk.css",
+    "static/js/2.cbaaa291.chunk.js",
+    "static/css/main.1db3e3ba.chunk.css",
+    "static/js/main.168790da.chunk.js"
+  ]
+}
